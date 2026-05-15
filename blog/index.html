@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — DevToolsGuide</title>
+<meta name="description" content="In-depth reviews and comparisons of the best developer tools, AI coding assistants, and productivity software.">
+<style>
+:root{--bg:#fff;--text:#1a1a2e;--muted:#666;--accent:#2563eb;--accent-hover:#1d4ed8;--border:#e5e7eb;--card-bg:#f9fafb}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--border);padding:16px 0}
+.logo{font-size:1.5rem;font-weight:800;color:var(--accent);text-decoration:none}
+.header-inner{display:flex;justify-content:space-between;align-items:center}
+nav a{color:var(--text);text-decoration:none;margin-left:24px;font-weight:500}
+nav a:hover{color:var(--accent)}
+.blog-list{padding:60px 0}
+.blog-list h1{font-size:2.5rem;margin-bottom:40px}
+.post-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:20px}
+.post-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.post-card .category{font-size:.8rem;color:var(--accent);text-transform:uppercase;font-weight:600}
+.post-card h2{font-size:1.4rem;margin:8px 0}
+.post-card h2 a{color:var(--text);text-decoration:none}
+.post-card h2 a:hover{color:var(--accent)}
+.post-card .excerpt{color:var(--muted);margin:8px 0 12px}
+.post-card .meta{font-size:.85rem;color:var(--muted)}
+.badge{display:inline-block;background:#059669;color:#fff;padding:2px 8px;border-radius:4px;font-size:.75rem;font-weight:600}
+footer{border-top:1px solid var(--border);padding:40px 0;text-align:center;color:var(--muted)}
+footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <a href="/" class="logo">DevToolsGuide</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about/">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-list">
+  <div class="container">
+    <h1>All Reviews</h1>
+
+    <article class="post-card">
+      <span class="category">AI Tools</span>
+      <h2><a href="/blog/best-ai-tools-developers-2026.html">7 Best AI Tools for Developers in 2026 (Tested & Ranked)</a></h2>
+      <p class="excerpt">We tested 15+ AI coding tools across real projects to find the 7 best. Cursor, Copilot, Claude Code, and more — compared on code quality, speed, context awareness, and value.</p>
+      <p class="meta">May 15, 2026 · 15 min read · <span class="badge">New</span></p>
+    </article>
+
+    <article class="post-card">
+      <span class="category">Cloud</span>
+      <h2><a href="#">Best Cloud IDEs in 2026 — AWS Cloud9 vs Gitpod vs GitHub Codespaces</a></h2>
+      <p class="excerpt">Cloud development environments compared on latency, features, and pricing. Find the right one for remote work.</p>
+      <p class="meta">Coming June 2026</p>
+    </article>
+
+    <article class="post-card">
+      <span class="category">Productivity</span>
+      <h2><a href="#">Notion vs Obsidian vs Anytype — Best Developer Note-Taking App 2026</a></h2>
+      <p class="excerpt">We used all three note-taking apps for 3 months each. See which one actually helps developers stay organized.</p>
+      <p class="meta">Coming June 2026</p>
+    </article>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>DevToolsGuide — Honest reviews for developers.</p>
+  </div>
+</footer>
+</body>
+</html>
